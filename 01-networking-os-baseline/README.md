@@ -15,14 +15,14 @@ I captured network traffic inside the VM while using the `ping` command.
 - **Action:** Filtered traffic using `icmp`.
 - **Result:** Observed ICMP packets. The "Time-to-live exceeded" message confirms the packets successfully left the VM's virtual network and reached external routing infrastructure.
 
-![Wireshark Capture](wireshark-icmp.png)
+![Wireshark Capture](icmp-wireshark.png)
 
 ### Part 2: OS Enumeration (PowerShell)
 I used PowerShell to enumerate local user accounts.
 - **Command:** `Get-LocalUser`
 - **Result:** Successfully listed the local accounts, including the active user profile and built-in Administrator/Guest accounts.
 
-![PowerShell Users](powershell-users.png)
+![PowerShell Users](Powershell users.png)
 
 ## 💡 What I Learned
 - How to isolate and analyze specific protocols in Wireshark.
