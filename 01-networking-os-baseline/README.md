@@ -22,7 +22,7 @@ I used PowerShell to enumerate local user accounts.
 - **Command:** `Get-LocalUser`
 - **Result:** Successfully listed the local accounts, including the active user profile and built-in Administrator/Guest accounts.
 
-![PowerShell Users](Powershell users.png)
+![PowerShell Users](Powershell-users.png)
 
 ## 💡 What I Learned
 - How to isolate and analyze specific protocols in Wireshark.
